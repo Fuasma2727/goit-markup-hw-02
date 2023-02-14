@@ -1,0 +1,189 @@
+.body {
+  color: #212121;
+}
+.logo {
+  color: #2196f3;
+  text-align: right;
+  letter-spacing: 0.03em;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
+.links {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  width: 49px;
+  height: 16px;
+}
+.linkactual {
+  color: #2196f3;
+}
+.links:hover {
+  color: #2196f3;
+}
+.contactos {
+  color: #757575;
+}
+.contactos:hover {
+  color: #2196f3;
+}
+.lista {
+  list-style: none;
+}
+.titulo {
+  width: 1600px;
+  height: 600px;
+  left: -4px;
+  top: 80px;
+  background: #2f303a;
+}
+.h1 {
+  position: absolute;
+  width: 696px;
+  height: 120px;
+  left: 448px;
+  top: 280px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.botonh1 {
+  position: absolute;
+  width: 261px;
+  height: 50px;
+  left: 666px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+}
+
+.botonh1:active {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.servicios {
+  list-style: none;
+}
+.h5 {
+  width: 270px;
+  height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.textoh5 {
+  width: 270px;
+  height: 75px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.imagenes {
+  list-style: none;
+}
+.personas {
+  list-style: none;
+}
+.persona {
+  width: 118px;
+  height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.h2 {
+  width: 371.15px;
+  height: 46.24px;
+  font-family: 'Roboto';
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+#footer {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2158px;
+  background: #2f303a;
+  list-style: none;
+}
+
+.h3 {
+  width: 145px;
+  height: 31px;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.address {
+  width: 231px;
+  height: 21px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.contactos-inf {
+  list-style: none;
+}
+
+.contacto-inf {
+  width: 231px;
+  height: 21px;
+  font-family: 'Roboto';
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  list-style: none;
+  text-align: left;
+}
+
+.cargo {
+  width: 181px;
+  height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.botones-portafolio {
+  list-style: none;
+}
+.boton-portafolio {
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.boton-portafolio:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.boton-portafolio:active {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.imagenes-portafolio {
+  list-style: none;
+}
