@@ -1,36 +1,48 @@
-.body {
-  color: #212121;
+:root {
+  --body-color: #212121;
+  --logo-color: #2196f3;
+  --contactos-color: #757575;
+  --titulo-color: #2f303a;
+  --h1-color: #ffffff;
+  --footer-color: #2f303a;
+  --boton-portafolio-color: #f5f4fa;
 }
 .logo {
-  color: #2196f3;
+  color: var(--logo-color);
   text-align: right;
   letter-spacing: 0.03em;
   width: 145px;
   height: 31px;
   left: 215px;
   top: 24px;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'raleway', sans-serif;
 }
+.body {
+  color: var(--body-color);
+  font-family: 'Roboto', sans-serif;
+}
+
 .links {
-  font-family: 'Roboto';
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  width: 49px;
-  height: 16px;
 }
 .linkactual {
-  color: #2196f3;
+  color: var(--logo-color);
+  font-weight: 500;
+  font-size: 14px;
 }
 .links:hover {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .contactos {
-  color: #757575;
+  color: var(--contactos-color);
+  font-weight: 500;
+  font-size: 14px;
 }
 .contactos:hover {
-  color: #2196f3;
+  color: var(--logo-color);
 }
 .lista {
   list-style: none;
@@ -38,9 +50,7 @@
 .titulo {
   width: 1600px;
   height: 600px;
-  left: -4px;
-  top: 80px;
-  background: #2f303a;
+  background: var(--footer-color);
 }
 .h1 {
   position: absolute;
@@ -48,19 +58,13 @@
   height: 120px;
   left: 448px;
   top: 280px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
-
-  /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: #ffffff;
+  color: var(--h1-color);
 }
 
 .botonh1 {
@@ -69,9 +73,10 @@
   height: 50px;
   left: 666px;
   top: 430px;
-  background: #2196f3;
+  background: var(--logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  color: #ffffff;
+  color: var(--h1-color);
+  cursor: pointer;
 }
 
 .botonh1:active {
@@ -86,13 +91,13 @@
   height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--body-color);
 }
 .textoh5 {
   width: 270px;
   height: 75px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--contactos-color);
 }
 
 .imagenes {
@@ -106,7 +111,7 @@
   height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--body-color);
 }
 
 .h2 {
@@ -114,7 +119,7 @@
   height: 46.24px;
   font-family: 'Roboto';
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--body-color);
 }
 
 #footer {
@@ -122,7 +127,7 @@
   height: 252px;
   left: 0px;
   top: 2158px;
-  background: #2f303a;
+  background: var(--footer-color);
   list-style: none;
 }
 
@@ -130,14 +135,14 @@
   width: 145px;
   height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--logo-color);
 }
 
 .address {
   width: 231px;
   height: 21px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--h1-color);
   font-family: 'Roboto';
 }
 
@@ -160,18 +165,20 @@
   height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--contactos-color);
 }
 
 .botones-portafolio {
   list-style: none;
+  cursor: pointer;
 }
 .boton-portafolio {
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background: #f5f4fa;
+  color: var(--body-color);
+  background: var(--boton-portafolio-color);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .boton-portafolio:hover {
@@ -180,8 +187,8 @@
 }
 
 .boton-portafolio:active {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--logo-color);
+  color: var(--h1-color);
 }
 
 .imagenes-portafolio {
